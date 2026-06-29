@@ -1,0 +1,6 @@
+{
+  "name": "Dental Clinic",
+  "description": "A premium dental clinic website offering comprehensive dental care services, online booking, and patient resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
