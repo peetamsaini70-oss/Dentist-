@@ -1,4 +1,5 @@
 import React from 'react';
+import mapDemo from "../assets/images/map_demo_1782735432189.jpg";
 
 export const Map = () => (
   <section className="py-20 px-4 bg-gray-50">
@@ -6,7 +7,7 @@ export const Map = () => (
       <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Location</h2>
       <div className="w-full h-96 rounded-[2rem] overflow-hidden shadow-sm">
         <img 
-            src="/images/map_demo_1782735432189.jpg" 
+            src={mapDemo}
             alt="Clinic Location" 
             className="w-full h-full object-cover"
         />

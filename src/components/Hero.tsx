@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import doctorPortrait from "../assets/images/doctor_portrait_1782731969775.jpg";
 
 export const Hero = () => {
   return (
@@ -26,7 +27,7 @@ export const Hero = () => {
            animate={{ opacity: 1, scale: 1 }}
            transition={{ duration: 0.6 }}
         >
-          <img src="/images/doctor_portrait_1782731969775.jpg" alt="Friendly Dentist" className="rounded-[2rem] h-96 w-full object-cover shadow-2xl" />
+          <img src={doctorPortrait} alt="Friendly Dentist" className="rounded-[2rem] h-96 w-full object-cover shadow-2xl" />
         </motion.div>
       </div>
     </section>

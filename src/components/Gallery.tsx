@@ -1,9 +1,12 @@
 import React from 'react';
+import whiteningImage from "../assets/images/whitening_no_text_1782732935718.jpg";
+import implantImage from "../assets/images/implant_v2_best_1782733279331.jpg";
+import gapFixImage from "../assets/images/gap_fix_v2_best_1782733300610.jpg";
 
 const galleryItems = [
-  { title: "Teeth Whitening", image: "/images/whitening_no_text_1782732935718.jpg" },
-  { title: "Dental Implants", image: "/images/implant_v2_best_1782733279331.jpg" },
-  { title: "Gap Closure", image: "/images/gap_fix_v2_best_1782733300610.jpg" },
+  { title: "Teeth Whitening", image: whiteningImage },
+  { title: "Dental Implants", image: implantImage },
+  { title: "Gap Closure", image: gapFixImage },
 ];
 
 export const Gallery = () => {
