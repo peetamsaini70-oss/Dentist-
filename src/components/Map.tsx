@@ -6,7 +6,7 @@ export const Map = () => (
       <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Location</h2>
       <div className="w-full h-96 rounded-[2rem] overflow-hidden shadow-sm">
         <img 
-            src="/src/assets/images/map_demo_1782735432189.jpg" 
+            src="/images/map_demo_1782735432189.jpg" 
             alt="Clinic Location" 
             className="w-full h-full object-cover"
         />

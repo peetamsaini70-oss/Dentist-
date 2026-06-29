@@ -26,7 +26,7 @@ export const Hero = () => {
            animate={{ opacity: 1, scale: 1 }}
            transition={{ duration: 0.6 }}
         >
-          <img src="/src/assets/images/doctor_portrait_1782731969775.jpg" alt="Friendly Dentist" className="rounded-[2rem] h-96 w-full object-cover shadow-2xl" />
+          <img src="/images/doctor_portrait_1782731969775.jpg" alt="Friendly Dentist" className="rounded-[2rem] h-96 w-full object-cover shadow-2xl" />
         </motion.div>
       </div>
     </section>
