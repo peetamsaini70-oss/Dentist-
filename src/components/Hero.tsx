@@ -17,9 +17,9 @@ export const Hero = () => {
           <p className="text-lg text-gray-600 mb-8">
             Experience world-class dental care with a gentle touch. Our dedicated team uses the latest technology to ensure a comfortable and effective treatment.
           </p>
-          <div className="flex gap-4">
-            <a href="#contact" className="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition text-center">Book Appointment</a>
-            <a href="#services" className="border border-gray-300 text-gray-700 px-8 py-3 rounded-full font-semibold hover:bg-gray-50 transition text-center">View Services</a>
+          <div className="flex gap-2 sm:gap-4 flex-col sm:flex-row">
+            <a href="#contact" className="bg-primary text-white px-5 py-2 text-sm sm:px-8 sm:py-3 sm:text-base rounded-full font-semibold hover:bg-blue-700 transition text-center">Book Appointment</a>
+            <a href="#services" className="border border-gray-300 text-gray-700 px-5 py-2 text-sm sm:px-8 sm:py-3 sm:text-base rounded-full font-semibold hover:bg-gray-50 transition text-center">View Services</a>
           </div>
         </motion.div>
         <motion.div
